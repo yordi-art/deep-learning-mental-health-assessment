@@ -1,0 +1,16 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+*.egg-info/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Models (optional: remove next 2 lines if you want to commit them)
+models/mental_health_model.keras
+models/scaler.pkl
+
+# OS
+.DS_Store
