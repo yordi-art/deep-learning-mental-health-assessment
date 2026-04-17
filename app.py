@@ -61,11 +61,10 @@ st.markdown(
     "Answer the questions below based on how you've felt **over the last 2 weeks**. "
     "Then click **Predict** to see your result."
 )
-st.warning("⚠️ This tool is for educational purposes only and is **not** a substitute for professional medical advice.")
-st.divider()
+
 
 # ── PHQ-9 Section ─────────────────────────────────────────────────────────────
-st.subheader("📋 PHQ-9 — Depression Screening")
+st.subheader(" PHQ-9 — Depression Screening")
 st.caption("How often have you been bothered by the following?")
 
 phq9_responses = []
@@ -82,7 +81,7 @@ for i, question in enumerate(PHQ9_QUESTIONS):
 st.divider()
 
 # ── GAD-7 Section ─────────────────────────────────────────────────────────────
-st.subheader("📋 GAD-7 — Anxiety Screening")
+st.subheader("GAD-7 — Anxiety Screening")
 st.caption("How often have you been bothered by the following?")
 
 gad7_responses = []
