@@ -8,7 +8,6 @@ A deep learning model that classifies mental health severity from **PHQ-9** (dep
 
 Mental health conditions like depression and anxiety are often under-diagnosed. Standard clinical tools (PHQ-9, GAD-7) produce numerical scores that can be automatically classified using machine learning — enabling faster, scalable screening support.
 
-> ⚠️ **Disclaimer:** This tool is for educational/research purposes only. It is **not** a substitute for professional medical diagnosis.
 
 ---
 
